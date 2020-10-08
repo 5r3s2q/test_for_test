@@ -34,7 +34,7 @@ cd /home/box/web && \
     pip install -r requirements/production.txt && \
     export PYTHONPATH=$(pwd):$PYTHONPATH && \
     cd /home/box/web/ask && \
-    python manage.py migrate && \
+    python3 manage.py migrate && \
     exec gunicorn --bind=0.0.0.0:8000 --workers=4 ask.wsgi:application
 
 #exec gunicorn -с ../etc/django-gunicorn.conf ask.wsgi:application
