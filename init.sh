@@ -1,7 +1,7 @@
 ### Создание проекта в рамках курса на stepic.org
 
 # $ mkdir -p /home/box/web
-# $ git clone https://github.com/pilosus/stepic_web_project.git /home/box/web
+# $ git clone https://github.com/5r3s2q/test_for_test.git /home/box/web
 # $ bash /home/box/web/init.sh
 # if git files changed locally, stash or reset:
 # $ git reset --hard
